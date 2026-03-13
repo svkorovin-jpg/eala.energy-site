@@ -3,7 +3,7 @@ backend:
   repo: svkorovin-jpg/eala.energy-site
   branch: main
   client_id: Ov23liANKMS51YquK0hE
- 
+
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
 
@@ -17,5 +17,3 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Text", name: "body", widget: "markdown" }
-         
- 
