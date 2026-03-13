@@ -43,6 +43,21 @@
   }
   </script>
 
+  <!-- Google Analytics (loads only after cookie consent) -->
+  <script>
+    function loadGA() {
+      var s = document.createElement('script');
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-70BEVQK98';
+      s.async = true;
+      document.head.appendChild(s);
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-70BEVQK98');
+    }
+    if (localStorage.getItem('cookie_consent') === 'accepted') loadGA();
+  </script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -445,6 +460,28 @@
     }
     .footer-inner{
       max-width:var(--max); margin:0 auto; display:flex; justify-content:space-between; gap:18px; flex-wrap:wrap;
+    }
+
+    .cookie-banner{
+      position:fixed; bottom:24px; left:50%; transform:translateX(-50%);
+      z-index:999; width:calc(100% - 48px); max-width:620px;
+      background:rgba(11,24,48,.96); border:1px solid rgba(255,255,255,.08);
+      backdrop-filter:blur(16px); border-radius:18px;
+      padding:20px 24px; display:flex; align-items:center; gap:16px; flex-wrap:wrap;
+      box-shadow:0 8px 40px rgba(0,0,0,.5);
+    }
+    .cookie-banner p{margin:0; font-size:14px; color:var(--muted); flex:1; min-width:200px; line-height:1.6}
+    .cookie-banner a{color:var(--cyan); text-decoration:underline}
+    .cookie-btns{display:flex; gap:10px; flex-shrink:0}
+    .cookie-accept{
+      padding:9px 18px; border-radius:999px; border:none; cursor:pointer;
+      font-family:inherit; font-size:14px; font-weight:700;
+      color:#031322; background:linear-gradient(135deg, var(--cyan), #8ae7ff);
+    }
+    .cookie-decline{
+      padding:9px 18px; border-radius:999px; border:1px solid rgba(255,255,255,.12);
+      cursor:pointer; font-family:inherit; font-size:14px; font-weight:500;
+      color:var(--muted); background:transparent;
     }
 
     .contact-form{margin-top:32px; display:grid; gap:14px}
@@ -906,6 +943,30 @@
 
     resizeCanvases();
     animate();
+  </script>
+
+  <!-- Cookie banner -->
+  <div class="cookie-banner" id="cookieBanner" style="display:none">
+    <p>We use cookies to understand how visitors use our site. See our <a href="#" onclick="return false">Privacy Policy</a>.</p>
+    <div class="cookie-btns">
+      <button class="cookie-decline" id="cookieDecline">Decline</button>
+      <button class="cookie-accept" id="cookieAccept">Accept</button>
+    </div>
+  </div>
+  <script>
+    (function() {
+      var consent = localStorage.getItem('cookie_consent');
+      if (!consent) document.getElementById('cookieBanner').style.display = 'flex';
+      document.getElementById('cookieAccept').addEventListener('click', function() {
+        localStorage.setItem('cookie_consent', 'accepted');
+        document.getElementById('cookieBanner').style.display = 'none';
+        loadGA();
+      });
+      document.getElementById('cookieDecline').addEventListener('click', function() {
+        localStorage.setItem('cookie_consent', 'declined');
+        document.getElementById('cookieBanner').style.display = 'none';
+      });
+    })();
   </script>
 </body>
 </html>
