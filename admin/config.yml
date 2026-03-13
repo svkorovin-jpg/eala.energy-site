@@ -1,0 +1,18 @@
+backend:
+  name: github
+  repo: svkorovin-jpg/eala.energy-site
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "site"
+    label: "Site content"
+    files:
+      - label: "Homepage"
+        name: "home"
+        file: "content/home.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Text", name: "body", widget: "markdown" }
