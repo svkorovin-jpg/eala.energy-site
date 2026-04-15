@@ -1,0 +1,249 @@
+[
+  {
+    "name": "Equinix LD4/LD5",
+    "operator": "Equinix",
+    "location": [-0.5950, 51.5103],
+    "city": "Slough",
+    "capacity_mw": 72,
+    "type": "colocation",
+    "notable": "Europe's largest peering point; part of the Slough Availability Zone"
+  },
+  {
+    "name": "Equinix LD6",
+    "operator": "Equinix",
+    "location": [-0.5970, 51.5140],
+    "city": "Slough",
+    "capacity_mw": 24,
+    "type": "colocation"
+  },
+  {
+    "name": "Digital Realty Slough",
+    "operator": "Digital Realty",
+    "location": [-0.6190, 51.5050],
+    "city": "Slough",
+    "capacity_mw": 50,
+    "type": "hyperscale"
+  },
+  {
+    "name": "Virtus LONDON2",
+    "operator": "Virtus Data Centres",
+    "location": [-0.0900, 51.6570],
+    "city": "Enfield",
+    "capacity_mw": 12,
+    "type": "hyperscale"
+  },
+  {
+    "name": "Virtus LONDON4",
+    "operator": "Virtus Data Centres",
+    "location": [-0.4186, 51.5148],
+    "city": "Hayes (Stockley Park)",
+    "capacity_mw": 21,
+    "type": "hyperscale"
+  },
+  {
+    "name": "Virtus LONDON5",
+    "operator": "Virtus Data Centres",
+    "location": [-0.4720, 51.5030],
+    "city": "West Drayton",
+    "capacity_mw": 36,
+    "type": "hyperscale"
+  },
+  {
+    "name": "Yondr Slough",
+    "operator": "Yondr",
+    "location": [-0.6100, 51.5080],
+    "city": "Slough",
+    "capacity_mw": 70,
+    "type": "hyperscale"
+  },
+  {
+    "name": "Vantage LON1",
+    "operator": "Vantage Data Centers",
+    "location": [-0.1260, 51.4640],
+    "city": "London",
+    "capacity_mw": 27,
+    "type": "hyperscale"
+  },
+  {
+    "name": "Telehouse North",
+    "operator": "Telehouse / KDDI",
+    "location": [-0.0145, 51.5098],
+    "city": "London Docklands",
+    "capacity_mw": 30,
+    "type": "colocation",
+    "notable": "LINX peering core"
+  },
+  {
+    "name": "Telehouse East",
+    "operator": "Telehouse / KDDI",
+    "location": [-0.0135, 51.5090],
+    "city": "London Docklands",
+    "capacity_mw": 18,
+    "type": "colocation"
+  },
+  {
+    "name": "Telehouse West",
+    "operator": "Telehouse / KDDI",
+    "location": [-0.0155, 51.5103],
+    "city": "London Docklands",
+    "capacity_mw": 18,
+    "type": "colocation"
+  },
+  {
+    "name": "Telehouse North Two",
+    "operator": "Telehouse / KDDI",
+    "location": [-0.0135, 51.5105],
+    "city": "London Docklands",
+    "capacity_mw": 25,
+    "type": "colocation"
+  },
+  {
+    "name": "Global Switch London",
+    "operator": "Global Switch",
+    "location": [-0.0007, 51.5034],
+    "city": "London Docklands",
+    "capacity_mw": 60,
+    "type": "colocation"
+  },
+  {
+    "name": "Interxion LON1",
+    "operator": "Interxion / Digital Realty",
+    "location": [-0.0756, 51.5239],
+    "city": "London (Brick Lane)",
+    "capacity_mw": 25,
+    "type": "colocation"
+  },
+  {
+    "name": "Kao Data Harlow",
+    "operator": "Kao Data",
+    "location": [0.1275, 51.7670],
+    "city": "Harlow, Essex",
+    "capacity_mw": 40,
+    "type": "hyperscale",
+    "notable": "100% renewable-powered; designed for AI/HPC workloads"
+  },
+  {
+    "name": "Ark Data Centres Corsham",
+    "operator": "Ark Data Centres",
+    "location": [-2.2150, 51.4336],
+    "city": "Corsham, Wiltshire",
+    "capacity_mw": 80,
+    "type": "government",
+    "notable": "Primary UK Government / MoD data campus"
+  },
+  {
+    "name": "Ark Data Centres Spring Park",
+    "operator": "Ark Data Centres",
+    "location": [-0.7580, 51.2885],
+    "city": "Farnborough",
+    "capacity_mw": 30,
+    "type": "colocation"
+  },
+  {
+    "name": "Equinix MA1",
+    "operator": "Equinix",
+    "location": [-2.2499, 53.4794],
+    "city": "Manchester",
+    "capacity_mw": 4,
+    "type": "colocation"
+  },
+  {
+    "name": "Equinix MA3/MA4",
+    "operator": "Equinix",
+    "location": [-2.2460, 53.4810],
+    "city": "Manchester",
+    "capacity_mw": 12,
+    "type": "colocation"
+  },
+  {
+    "name": "TeleData Manchester",
+    "operator": "TeleData",
+    "location": [-2.3310, 53.3800],
+    "city": "Wythenshawe",
+    "capacity_mw": 6,
+    "type": "colocation"
+  },
+  {
+    "name": "Node4 Northampton",
+    "operator": "Node4",
+    "location": [-0.9000, 52.2400],
+    "city": "Northampton",
+    "capacity_mw": 8,
+    "type": "colocation"
+  },
+  {
+    "name": "Next Generation Data",
+    "operator": "Vantage Data Centers",
+    "location": [-3.0090, 51.5842],
+    "city": "Newport, Wales",
+    "capacity_mw": 180,
+    "type": "hyperscale",
+    "notable": "One of the largest DC campuses in Europe"
+  },
+  {
+    "name": "Pulsant South Gyle",
+    "operator": "Pulsant",
+    "location": [-3.3032, 55.9404],
+    "city": "Edinburgh",
+    "capacity_mw": 5,
+    "type": "colocation",
+    "notable": "Scotland's main wholesale DC"
+  },
+  {
+    "name": "iomart Glasgow",
+    "operator": "iomart",
+    "location": [-4.2518, 55.8642],
+    "city": "Glasgow",
+    "capacity_mw": 4,
+    "type": "colocation"
+  },
+  {
+    "name": "DataVita Chapelhall",
+    "operator": "DataVita",
+    "location": [-3.9900, 55.8720],
+    "city": "Chapelhall, North Lanarkshire",
+    "capacity_mw": 30,
+    "type": "colocation",
+    "notable": "Scotland's largest DC by capacity; renewable-focused"
+  },
+  {
+    "name": "Brightsolid Dundee",
+    "operator": "Brightsolid",
+    "location": [-2.9707, 56.4620],
+    "city": "Dundee",
+    "capacity_mw": 3,
+    "type": "colocation"
+  },
+  {
+    "name": "Pulsant Milton Keynes",
+    "operator": "Pulsant",
+    "location": [-0.7594, 52.0406],
+    "city": "Milton Keynes",
+    "capacity_mw": 8,
+    "type": "colocation"
+  },
+  {
+    "name": "Telehouse Chessington",
+    "operator": "Telehouse / KDDI",
+    "location": [-0.3020, 51.3590],
+    "city": "Chessington",
+    "capacity_mw": 6,
+    "type": "colocation"
+  },
+  {
+    "name": "Pulsant Reading",
+    "operator": "Pulsant",
+    "location": [-0.9720, 51.4540],
+    "city": "Reading",
+    "capacity_mw": 4,
+    "type": "colocation"
+  },
+  {
+    "name": "Sungard Availability London",
+    "operator": "Sungard",
+    "location": [-0.0830, 51.5170],
+    "city": "London",
+    "capacity_mw": 10,
+    "type": "colocation"
+  }
+]

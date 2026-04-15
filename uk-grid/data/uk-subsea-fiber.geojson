@@ -1,0 +1,203 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SHEFA-2",
+        "operator": "Farice hf / Shetland Islands Council",
+        "commissioned": 2008,
+        "endpoints": "Banff (Scotland) ↔ Shetland ↔ Faroes ↔ Iceland",
+        "length_km": 1200,
+        "system": "Shetland, Faroes, Iceland Connection 2",
+        "notable": "The single fibre that gives Shetland sub-millisecond latency to the European backbone — runs directly past Viking Energy Wind Farm"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-2.52, 57.66],
+          [-1.30, 60.12],
+          [-6.77, 62.01],
+          [-22.43, 63.84]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "FARICE-1",
+        "operator": "Farice hf",
+        "commissioned": 2004,
+        "endpoints": "Grindavík (Iceland) ↔ Faroes ↔ Dunbar (Scotland)",
+        "length_km": 1400,
+        "notable": "Iceland's main connection to continental Europe; backup to SHEFA-2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-22.43, 63.84],
+          [-6.77, 62.01],
+          [-2.51, 56.00]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "IRIS",
+        "operator": "Farice hf",
+        "commissioned": 2023,
+        "endpoints": "Þorlákshöfn (Iceland) ↔ Galway (Ireland)",
+        "length_km": 1700,
+        "notable": "Newest North Atlantic route, purpose-built for HPC/AI data flows to Icelandic geothermal DCs"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-21.37, 63.85],
+          [-12.00, 58.00],
+          [-9.05, 53.27]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NO-UK",
+        "operator": "Bulk Infrastructure",
+        "commissioned": 2022,
+        "endpoints": "Kristiansand (Norway) ↔ Newcastle (UK)",
+        "length_km": 720,
+        "notable": "Runs roughly parallel to the North Sea Link HVDC — moves bits and electrons between the same two endpoints"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [7.99, 58.15],
+          [3.50, 56.20],
+          [-1.08, 54.60]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Havfrue / AEC-2",
+        "operator": "Aqua Comms / Meta / Google / Bulk",
+        "commissioned": 2020,
+        "endpoints": "Wall Township (NJ) ↔ Killala (IE) ↔ Blaabjerg (DK) ↔ Kristiansand (NO)",
+        "length_km": 7200
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-74.04, 40.12],
+          [-30.00, 48.00],
+          [-9.17, 54.22],
+          [-2.00, 58.00],
+          [8.09, 55.67],
+          [7.99, 58.15]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grace Hopper",
+        "operator": "Google",
+        "commissioned": 2022,
+        "endpoints": "Shirley (NY) ↔ Bude (UK) ↔ Bilbao (ES)",
+        "length_km": 7200,
+        "notable": "Google's first owned transatlantic cable with UK landing; fibre switching at Bude"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-72.85, 40.80],
+          [-35.00, 45.00],
+          [-10.00, 49.00],
+          [-4.54, 50.83],
+          [-4.00, 47.00],
+          [-2.93, 43.26]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Amitié",
+        "operator": "Meta / Microsoft / Vodafone / Aqua Comms",
+        "commissioned": 2023,
+        "endpoints": "Lynn (MA) ↔ Bude (UK) ↔ Le Porge (FR)",
+        "length_km": 6700
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-70.92, 42.47],
+          [-35.00, 46.00],
+          [-10.00, 50.00],
+          [-4.54, 50.83],
+          [-3.50, 47.00],
+          [-1.20, 44.87]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "2Africa",
+        "operator": "Meta / China Mobile / MTN / Orange / Vodafone",
+        "commissioned": 2024,
+        "endpoints": "Bude (UK) → Canary Islands → West Africa → around Africa → Europe",
+        "length_km": 45000,
+        "notable": "Longest subsea cable ever built; Bude is one of the European anchor landings"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-4.54, 50.83],
+          [-9.00, 45.00],
+          [-15.40, 28.10],
+          [-17.44, 14.68]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CeltixConnect-2",
+        "operator": "Aqua Comms (Digital 9 Infrastructure)",
+        "commissioned": 2020,
+        "endpoints": "Holyhead (UK) ↔ Portrane (IE)",
+        "length_km": 131
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-4.64, 53.31],
+          [-6.13, 53.50]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Apollo",
+        "operator": "Vodafone / Alcatel",
+        "commissioned": 2003,
+        "endpoints": "Manasquan (NJ) ↔ Bude (UK) ↔ Lannion (FR)",
+        "length_km": 13000
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-74.04, 40.12],
+          [-40.00, 44.00],
+          [-4.54, 50.83],
+          [-3.46, 48.73]
+        ]
+      }
+    }
+  ]
+}
