@@ -1,0 +1,14 @@
+{
+  "buildCommand": "",
+  "outputDirectory": ".",
+  "rewrites": [
+    {
+      "source": "/uk-grid",
+      "destination": "https://uk-grid-svkorovin-jpg.vercel.app"
+    },
+    {
+      "source": "/uk-grid/:path*",
+      "destination": "https://uk-grid-svkorovin-jpg.vercel.app/:path*"
+    }
+  ]
+}
